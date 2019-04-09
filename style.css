@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  background-color: rgba(82, 212, 216, 0.712);
+  margin: 0;
+  padding: 0;
+  min-height: 320px;
+  font-family: "Raleway";
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.quote-container{
+  background-color: #fff;
+  margin-top:180px;
+  border-radius: 4px;
+  width:550px;
+  height:270px;
+  
+}
+
+
+ #quote-box {
+  padding: 20px;
+  width: 450px;
+  height: 250px;
+  margin-left:20px;
+  
+}
+
+
+#text {
+  text-align: center;
+  font-size: 27px;
+  height:4%;
+
+}
+#author{
+  margin-top:120px;
+  text-align: right;
+  
+ 
+}
+
+
+#new-quote {
+  background-color: rgba(82, 212, 216, 0.712);
+  color: #fff;
+  width: 90px;
+  height: 37px;
+  border: 2px rgba(82, 212, 216, 0.712);
+  border-radius: 3px;
+  float: right;
+  outline: none;
+  margin-right:0px;
+  margin-top:0px; 
+}
+.fa {
+  font-size: 1.2em;
+  width: 50px;
+  height:28px;
+  text-align: center;
+  text-decoration: none;
+  padding-top:12px;
+}
+.fa-twitter,.fa-tumblr {
+  background-color:rgba(82, 212, 216, 0.712);
+  border:rgba(82, 212, 216, 0.712);
+  border-radius: 3px;
+  outline: none;
+  margin-left: 10px;
+  color:#fff;
+}
+
+
