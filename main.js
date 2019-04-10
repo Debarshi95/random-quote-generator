@@ -39,10 +39,10 @@ function changeQuote() {
     changeQuoteBtn.style.backgroundColor = generatedColors;
     tweetQuoteBtn.style.backgroundColor = generatedColors;
     tumblrQuoteBtn.style.backgroundColor = generatedColors;
-    let newQuote = Math.floor(Math.random() * Quotes.length)
-    let newAuthor = Math.floor(Math.random() * authors.length)
+    let index = Math.floor(Math.random() * Quotes.length)
+    
 
-    changeQuotes.innerHTML = Quotes[newQuote];
-    quotesAuthor.innerHTML = authors[newAuthor];
+    changeQuotes.innerHTML = Quotes[index];
+    quotesAuthor.innerHTML = authors[index];
 
 }
